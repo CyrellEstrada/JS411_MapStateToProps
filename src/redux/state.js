@@ -1,5 +1,9 @@
-export default {
+const initialState = {
     // Add user property here
+    user: {
+         username: 'test-user-1',
+         email: 'test-user@example.com'
+    },
     cars: [
         {
            "id": 1,
@@ -244,3 +248,4 @@ export default {
     ]
   };
   
+  export default initialState
